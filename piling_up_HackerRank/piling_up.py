@@ -22,7 +22,7 @@ def check(block_):                                      # Checks if the cubes in
             else:
                 max_element = block_[-1]
                 block_.pop(-1)
-                if max(block_[0], block_[-1]) > max_element:    # If the previously deleted cube is of lower side-length than any of the end cube
+                if max(block_[0], block_[-1]) > max_element:    # If the previously deleted cube is of lower side-length than any of the end cubes
                     done = False                                # the stacking fails
                     break
 
