@@ -1,5 +1,6 @@
-from math import factorial as fact
+# Slow-ass implementation in python. Do not use this!
 
+from math import factorial as fact
 
 def f(num):
     digits =list(str(num))
