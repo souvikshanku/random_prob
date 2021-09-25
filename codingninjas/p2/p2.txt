@@ -1,0 +1,37 @@
+Human Vs Computer
+##############################################
+
+Anjali makes mistakes in evaluating multiple choice single correct type questions. To check her error percentage, each answer sheet that she evaluates was also evaluated by computer. The dual evaluation system was adopted for Half Yearly Exams, at Coding Ninjas. Now, each student has two types of progress card: one prepared by Anjali and other prepared by computer.
+For each student, the error percentage of Anjali is defined by the expression: (ratio of number of subjects for which total marks evaluated by her is same as that of computer to total number subjects) * 100.
+The task for you is as follows. You will be given two lists. One of the lists has scores given by Anjali and other by computer. We have purposefully replaced some scores by variables. You can replace the variable by any integer. You have to tell whether it is possible for the student, to have same scores in both of lists, for each subject. In other words, you have to tell whether it is possible to for Anjali have zero error percentage.
+Note: It is given that all the problems in the exam are of the type: single correct and multiple choice.
+
+Input Format:
+
+The first line of input contains a positive integer, that denotes the number of subjects that a particularly student has. Let it be represented by N (1 <= N <= 50000). 
+The following line contains N space separated values for the first list. 
+The following line contains N space separated values for the second list.
+Each value in the lists can be either an integer or a string. The integer will be a positive integer less than 1000. String will be a sequence of lowercase characters of English alphabet (no longer than 10 characters). 
+
+Constraints:
+
+Time Limit: 1 second
+
+Output Format:
+
+The first and only line of output contains 'true', if it is possible for Anjali to achieve zero error percentage and 'false' otherwise.                 
+
+Sample Input 1:
+
+5
+a 3 a b 3
+a b 2 c 3
+
+Sample Output 1:
+
+true
+
+Explanation:
+
+Both the lists will become equal for the values of a=2, b=c=3. 
+
